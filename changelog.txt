@@ -1,0 +1,44 @@
+(6.20 TN-E Fix by Total_Noob)
+-------------------------
+
+(Changelog 6.20 TN-E Fix)
+- Fixed loading of game/pops plugins.
+- Fixed buffer overflow crash, TN Settings should work now.
+- Fixed bug that only allows 18 items in TN Settings.
+
+(Changelog 6.20 TN-E)
+- Added 'TN Settings' option to the XMB where you can adjust your configurations and plugins (based on Bubbletune's Game Categories).
+- Added OSK Character Limit Increase (the Internet Browser OSK only supports 512 characters. This patch allows you to use 1518 characters).
+- Added password control at startup (change password in 'Security Settings').
+- Added sceUmdMan_driver patch (umd4hombrew is not necessary anymore).
+- Added ability to access flash0, flash1, flash2, flash3 and UMD Disc via USB.
+- Added PSX multi-disc support.
+- Added possibility to hide hen eboot in the game menu.
+- Added version.txt display.
+- Added more functions to kubridge library.
+- Cloned more NIDs wich Sony removed in 6.20.
+- Fixed bug that didn't show 'Memory Card Utility' in pops.
+- Fixed syscall execution in kernel mode (thanks to neur0n).
+- Redesigned NID Resolver.
+- Updated NID Table.
+- Improved plugins compatiblity: PSPConsole, Macro Fire, Custom Firmware Extender, Brightpad, Battery Warning Plugin and many more!
+
+
+(Translating TN Settings)
+To translate the TN Settings create a text file in ms0:/seplugins/XX_tnsettings.txt / ef0:/seplugins/XX_tnsettings.txt, where XX is the language code:
+
+ja -> Japanese
+en -> English
+fr -> French
+es -> Spanish
+de -> German
+it -> Italian
+nl -> Netherlands
+pt -> Portuguese
+ru -> Russian
+ko -> Korean
+ch1 -> Chinese Simplified
+ch2 -> Chinese Traditional
+
+An English text file is included. The language is English if text file doesn't exist.
+Save it in UTF-8 format if you want to use special characters.

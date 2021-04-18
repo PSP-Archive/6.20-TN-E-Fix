@@ -1,0 +1,48 @@
+#ifndef __EN_TNSETTINGS_H__
+#define __EN_TNSETTINGS_H__
+
+char *en_tnsettings[] =
+{
+	"TN Settings",
+	"Configuration",
+	"Plugins",
+	"CPU Clock XMB",
+	"CPU Clock Game",
+	"USB Device",
+	"Fake Region",
+	"Password Control",
+	"OSK Character Limit Increase",
+	"Skip Gameboot",
+	"Hide MAC Address",
+	"TN Network Update",
+	"Hide PIC0.PNG and PIC1.PNG",
+	"Spoof Version",
+	"USB Charge",
+	"Fast Scroll Music",
+	"Use VSH Menu",
+	"Hide HEN EBOOT.PBP",
+	"Fake INDEX.DAT",
+	"Protect Flash0",
+	"Slim Colors",
+	"Button Assign",
+	"Default",
+	"Memory Stick",
+	"UMD Disc",
+	"Off",
+	"Japan",
+	"America",
+	"Europe",
+	"Korea",
+	"United Kingdom",
+	"Mexico",
+	"Australia",
+	"East",
+	"Taiwan",
+	"Russia",
+	"China",
+	"Debug Type I",
+	"Debug Type II",
+	"There are no plugins",
+};
+
+#endif
